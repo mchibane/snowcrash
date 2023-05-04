@@ -15,6 +15,6 @@ finally understanding the regex tells us that the code we want to inject must be
 
 our previous knowledge helped us deduce that we will need to feed the output of the getflag command in a convinient way
 create a file:
-[x ${`getflag`}]
+``[x ${`getflag`}]``
 
 ./level06 /where/your/file/is
