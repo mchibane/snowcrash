@@ -16,6 +16,6 @@ by analysing ltrace we can see the binary is looking for a env variable named 'L
 by simply replacing this variable with the clever use of backticks we get what we want
 
 
-# export LOGNAME='`getflag`'
+# export LOGNAME='\`getflag\`'
 
 launch the binary and GG
