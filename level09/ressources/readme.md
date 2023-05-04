@@ -25,4 +25,4 @@ We put together a python script that does the inverse operation on the input str
 
 # Executing
 
-`./our_script \`cat token\` ` gives us the password to flag09 user then getflag and we are done !
+``./our_script `cat token` `` gives us the password to flag09 user then getflag and we are done !
