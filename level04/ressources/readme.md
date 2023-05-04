@@ -7,7 +7,7 @@ it's a Perl script doing something on localhost:4747
 
 found out the param() function can expose some vulnerabilities in Perl
 analyzing the script we can deduce that we can inject some code in the param() function :
-./level04.pl x='`getflag`'
+``./level04.pl x='`getflag`'``
 this doesn't do much as we are executing the script as level04
 
 
